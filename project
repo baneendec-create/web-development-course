@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+    <html>
+        <head>
+            <title>
+                the use of all multimedia in html</title>
+                <body>
+<h2>in this we will add images to enhance the designing</h2>
+<img src="image.jpeg" alt="my image is in my folder"    width="500"  height="500" >
+<img src="image.jpeg"   alt="you can the picture of dog" 
+<audio controls autoplay>
+    <src="audio.mpe3"type="audio/mpeg"
+</audio>     
+<video control>
+    <src="video.mp4video2.mp4"alt="it is from shorts" style width="550"length="550"
+</video>
+<iframe width="1351" height="480" src="https://www.youtube.com/embed/zBjJUV-lzHo" title="1 minute funny videos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</head>
