@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>
+            MY FIRST WEB PAGE
+            </TITLE>
+        <h1>this is my website which i create </h1>
+        <h2>I am diong to create the unique website</h2>
+        <body>
+            <b> Welcome to my website</b>
+            <sharp> HELLO EVERYONE</sharp>
+            <i>Home></i>
+                         <mark>page</mark>
+    
+        <table>
+    <tr>
+        <th>name</th>
+        <th>grades</th>
+        <th>percentage</th>
+    </tr>
+    <tr>
+    <td>asma</td>
+    <td>fatima</td>
+    <td>ayesha</td>
+</tr>
+<tr>
+   <td> 1o</td>
+   <td>50</td>
+   <td>40</td>
+</tr>
+<tr>
+   <td> 56%</td>
+   <td>70%</td>
+    <td>90%</td>
+   </tr>
+</table>
+</body>
+
+</html>
