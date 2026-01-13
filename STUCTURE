@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title> uses of tags</title>
+
+    </head>
+    <body>
+        <p>   the use of tag is very important . it tell's browser  how to impelement the output<b>tags</b>are of different types</p>
+        <small>i am learning how the tags works</small>
+        <mark>   i am in grade 11</mark>
+        <em>UMUL BANEEN highlight</em>
+        6<sub>3</sub>
+        ch<sup>2</sup>
+        price is <del>70</del>
+        <a href="https://www.google.com/">visit it</a>
+<tr>
+    <th>
+        english
+    </th>
+    <th>
+        urdu
+    </th>
+    <th>
+        maths
+    </th>
+    <tr>
+        <td>
+            50
+        </td>
+        <td>
+            70
+        </td>
+        <td>
+            60
+        </td>
+    </tr>
+    <tr>
+        <td>
+            45
+        </td>
+        <td>
+            56
+        </td>
+        <td>
+            65
+        </td>
+    </tr>
+
+    <ol><li>eman</li><li>irsa</li></ol>
+    <ul> <li>aroob</li><li>rehana</li></ul>
+    
+
+    </body>
+</html>
