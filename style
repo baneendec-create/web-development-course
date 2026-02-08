@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+<head> 
+<style>
+    body{
+        background-color: rgb(190, 190, 142);
+    }
+</style>
+    
+    <!---this is inline styling -->
+<h1 style="background-color: rgb(134, 100, 165);
+font-style: italic;
+;text-decoration: underline;" >Welcome to Codingal</h1>
+<body>
+    <style>
+        div{
+            color: black;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 200;
+            font-style: ;
+        }
+    </style> 
+    <div>
+        Here you learn unique things that help out in coding.It help in to create descent websites using different languages.the next era will be ai and all things will be easyliy done by using different ai models .
+    </div><br>
+       <!---i am adding pictures--->
+       <img src="images.png " width="250" height="250">
+       <!--this one is external style-->
+       <link  href="style.css" rel="style">
+       <div id="11">
+        In web development, a "coding paragraph" is typically an HTML paragraph element, defined by the <p> tag, used to structure text content on a webpage. Browsers automatically add spacing (margins) before and after these elements to separate them from adjacent content, improving readability. 
+       </div>
+       <h2 style="background-color: #a3a338;;text-decoration: double;">
+        Benefits
+       </h2>
+       <ol>
+        <li>
+      <link  href="style.css"  rel="style" > 
+     <h3 class="2">  Logic:</h3> Coding involves breaking down complex issues into smaller, manageable, and logical steps, which sharpens analytical thinking and critical thinking skills.
+        </li>
+       <li>
+       <h3 class="2"> Enhanced Career Opportunities & Income:</h3> Programming skills are in high demand, offering above-average salaries, career versatility, and opportunities for remote work or freelancing, according to University of the Potomac and Next LVL Programming.
+       </li>
+<table border="2">
+    <tr style="background-color: rgb(62, 58, 92);font-size: larger;"><th>Name</th><th>Marks</th><th>Grades</th><th>Performance</th></tr>
+    <tr><td>Ayesha</td><td>546</td><td>A</td><td>Excellent</td></tr>
+    <tr>
+    <td>Imsal</td><td>578</td><td>A+</td><td>V.good</td>
+    </tr>
+    <tr><td>Urwa</td><td>487</td><td>B+</td><td>Good</td></tr>
+</table>
+
+</body>
+</head>
+</html>
