@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        body{
+            background-image: url(image.jfif);
+        }
+    </style>
+</html>
