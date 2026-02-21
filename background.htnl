@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        body{
+            background-image: url(wood.jfif);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background:linear-gradient(#e49191,rgb(30, 32, 31));
+            text-align: center;
+            text-decoration-color: rgb(240, 240, 231);
+            color: aliceblue;
+            text-decoration: salmon;
+        }
+    </style>
+    <body ><br> 
+        <div>
+welcome to codingal</div>
+Here you learn the amazing things and get deep knowledge in ai field.
+First you have to enroll in course what you want and then learn different ai languages.
+<img src="aiimages.jfif"><br>
+This is possible due to machine learning which is a type of ai. it can translate different languages and recogfnize face.
+<div>
+    <img src="deep.jfif"></div>
+    it help to recognize complex pattrens , it also act like a human. The example of it is <p style="color: rgb(177, 165, 187);">Chatgpt and chatbots</p> 
+</div> 
+ </body>
+</html>
