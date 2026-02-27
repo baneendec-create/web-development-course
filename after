@@ -1,0 +1,19 @@
+<!DOCTYPE htmkl>
+<html>
+    <style>
+        .po::after{
+            content:"cool girl";
+            color: blue;
+        }
+         #po{
+             background: rgba(212, 11, 11, 0.2);
+            backdrop-filter: blur;
+
+         }
+
+    </style>
+    <body>
+        <p class="po">Ammalia</p>
+        <p id="go">maria</p>
+            </body>
+            <html>

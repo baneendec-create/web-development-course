@@ -1,18 +1,102 @@
-<!DOCTYPE HTML>
-    <html>
-        <head>
-            <title>
-                the use of all multimedia in html</title>
-                <body>
-<h2>in this we will add images to enhance the designing</h2>
-<img src="image.jpeg" alt="my image is in my folder"    width="500"  height="500" >
-<img src="image.jpeg"   alt="you can the picture of dog" 
-<audio controls autoplay>
-    <src="audio.mpe3"type="audio/mpeg"
-</audio>     
-<video control>
-    <src="video.mp4video2.mp4"alt="it is from shorts" style width="550"length="550"
-</video>
-<iframe width="1351" height="480" src="https://www.youtube.com/embed/zBjJUV-lzHo" title="1 minute funny videos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</body>
-</head>
+<!DOCTYPE html>
+<html>
+    <head><title>Welcome to ganco</title></Welcome></head>
+        <style>
+            #to{height: 100vh;
+                background: linear-gradient(to bottom right, pink 50%,purple);
+            }
+             ol > #jo {
+                     border-block-start: 2px;
+                     color: rgb(223, 130, 8);
+             }
+                  .indent{
+                        text-indent: 20%;
+                  }
+                  b{
+                    text-decoration: double underline;
+                  }
+                  h1 ~ h5{
+                      background-color: rgb(240, 221, 198);
+                  }
+                  h1{
+                    text-align: left;
+                  }
+                  img{
+                    position: right;
+                  }
+                  #ko{
+                    background-color: blue;
+                  }
+                   .ko{
+                     background: linear-gradient(rgb(236, 159, 159),rgb(101, 101, 104));
+                   }
+                
+                         #so::first-letter{
+                            font-size: 200%;
+                            color: rgb(53, 245, 181);
+                        }
+                        a:hover{
+                            color: rgb(221, 30, 87);
+                        }
+                        label:nth-child(2){
+                            color: rgb(146, 15, 87);
+                        }
+                      
+                   
+            </style>
+            <body>
+                <div id="to">
+                <h1>WELCOME TO AI WORLD<img src="logo.jfif" width="30" height="30"></h1>
+                <ol>
+                    <li id="mo">Machine learning</li>
+                    <li id="jo">Deep learning</li>
+                    <li id="po">Natural Language processing</li>
+                </ol>
+                <b>Machine learning:</b><p class="indent"> this it can help to translate languages and recognizes face.This one is first type of Artifical language.<h5>ITS examples are sirri and gemini</h5></p>
+                <b>Deep learning</b><p class="indent">It is aubset of machine learning . It memiocs like human mind.it's example are <h5>CHATGPT and different chatbots</h5> </p>
+                <b class="indent">Natural language Processing</b><p>In this it help to communicate with humans . undewrstand their queries and guide them in their language<h5>It's example are Email filter, Virtual Assistance</h5></p>
+               </div>
+               <div class="ko"><b style="text-decoration: double underline;background: radial-gradient(rgb(228, 80, 112),rgba(184, 85, 159, 0.397));">Technological Foundations</b><br>
+               <table border="2">
+                <style>
+                    td{
+                        vertical-align: baseline;
+                    } 
+                   input[type="checkbox"]{
+                     accent-color: green;}
+                     label:hover:not(#deep,ao,yo){
+                        color: rgb(184, 230, 57);
+                         
+                     }
+                    
+                     
+                     
+                   
+                </style>
+                <tr><td><img src="image2.jpg"  width="30" height="30" style="image-rendering: crisp-edges;"></td><td> Algorithms that enable systems to learn from data, identify patterns, and make predictions</td>
+                <td><img src="image3.jfif" height="40" width="40" style="image-rendering:"></td><td> High performance computing, GPU-based systems, and cloud-based storage are required for processing.</td></tr>
+                <tr><td><img src="image4.png" width="40" height="40"></td><td> Advanced models, such as neural networks, that mimic human brain functions to process information.</td>
+                <td><img src="image5.png" width="40" height="40"></td><td>Large, clean, and diverse datasets are essential for training accurate models.</td></tr>
+               </table>
+               
+               <iframe style="display: block;margin: auto;" width="400" height="200" src="https://www.youtube.com/embed/L6HvJqW7knw" title="28 Higgsfield Prompts to Create Highly Cinematic AI Videos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="image "></iframe>
+               <p id="so">Artificial Intelligence (AI) offers significant benefits, including enhanced efficiency, 24/7 availability, advanced data analysis, and breakthroughs in fields like healthcare and automation. Conversely, it poses critical risks, such as algorithmic bias, job displacement, data privacy breaches, and ethical concerns regarding decision-making</p>
+               <a href="Advance selector">Hover over me</a>
+               <p>Which help in language translation</p>
+               <input type="checkbox" id="machine">
+               <label id="machine">Machine learning</label>
+               <input type="checkbox" id="deep learning">
+               <label id="deep">Deep learning</label>
+               <input type="checkbox" id="natural language processing">
+               <label id="natural">Natural language processing</label>
+               <p>Which one help to communicate with people</p>
+                
+               <input type="radio" class="radio">
+               <label id="ao">Machine</label>
+               <input type="radio" class="radio">
+               <label id="yo" >Deep learning</label>
+               <input type="radio" class="radio">
+               <label id="co">Natural LP</label>
+            </div>
+            </body>
+              </html>

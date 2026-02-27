@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <div class="decorated">Content</div>
+</body>
+
+<style>
+.decorated::before {
+    content: "best";
+    color: blue;
+}
+</style>       
