@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>making of utility bill</title>
+
+    <style>
+        * {
+            background-color: white;
+        }
+
+        #si {
+            float: right;
+        }
+
+        h1 {
+            text-align: center;
+            padding-top: 100px;
+        }
+
+        .container {
+            width: 500px;
+            height: 570px;
+            position: relative;
+            left: 35px;
+            top: 10px;
+            border: 2px solid;
+
+
+        }
+
+        .row {
+            display: flex;
+            font-weight: bold;
+            gap: 50px;
+        }
+
+        .row,
+        .col {
+            padding: 6px;
+
+        }
+
+        .total {
+            flex: 2;
+        }
+        .progress{
+                   position: relative;
+                   bottom: 640px;
+                   left: 550px;
+                   width: 300px;
+                   border-radius: 20px;
+        }
+        .progress-bar{  border-radius: 20px;
+                        
+        }
+        #po{
+             position: relative;
+             bottom: 610px;
+            left:300px;
+            width: 260px;
+        }
+    </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+    </script>
+</head>
+
+<body>
+    <header>
+        <p id="si"><b>Company Name</b><br>Bandoco
+        </p>
+    </header>
+    <main>
+        <h1>Utility Bill</h1>
+    </main>
+    <div class="container">
+        <div class="row" style=" background-color: rgb(141, 69, 69);">
+            <div class="col">Months</div>
+            <div class="col">Energy consuption</div>
+            <div class="col">Units Used</div>
+            <div class="col">Total. Amount</div>
+        </div>
+        <div class="row">
+            <div class="col">January</div>
+            <div class="col">200kw/h</div>
+            <div class="col">180 units</div>
+            <div class="col">3476 RS</div>
+        </div>
+        <div class="row">
+            <div class="col">February</div>
+            <div class="col">300kw/h</div>
+            <div class="col">160 units</div>
+            <div class="col">4736 RS</div>
+        </div>
+        <div class="row">
+            <div class="col">march</div>
+            <div class="col">200kw/h</div>
+            <div class="col">180 units</div>
+            <div class="col">3476 RS</div>
+        </div>
+        <div class="row">
+            <div class="col">April</div>
+            <div class="col">200kw/h</div>
+            <div class="col">180 units</div>
+            <div class="col">3476 RS</div>
+        </div>
+        <div class="row">
+            <div class="col">May</div>
+            <div class="col">198kw/h</div>
+            <div class="col">340 units</div>
+            <div class="col">9924 RS</div>
+        </div>
+        <div class="row">
+            <div class="col">June</div>
+            <div class="col">140kw/h</div>
+            <div class="col">250 units</div>
+            <div class="col">8626 RS</div>
+        </div>
+        <div class="row">
+            <div class="col">July</div>
+            <div class="col">200kw/h</div>
+            <div class="col">4389units</div>
+            <div class="col">2965 RS</div>
+        </div>
+        <div class="row">
+            <div class="col">Sept</div>
+            <div class="col">120kw/h</div>
+            <div class="col">175 units</div>
+            <div class="col">6543 RS</div>
+        </div>
+        <div class="row" style="background-color: rgb(136, 130, 74);">
+            <div class="total">Total Amount</div>
+            <div class="col">107654</div>
+        </div>
+    </div>
+    <section>
+        <div class="container d-flex justify-content-between align-items-center"  style="border: 0px; position: relative;top: 10px;"><button type="button" class="btn btn-success" style="position: relative;bottom: 320px;">Pay Now</button>
+         <div class="badge badge-secondary p-2" style="position: relative;bottom: 320px;">Later
+            <a href="option.html" class="btn btn-primary" style="background-color: grey;
+            width: 10px;"></a>
+         </div>
+        </div> <p id="po">That's The payement you had pay</p>
+        <div class="progress">
+           
+            <div class="progress-bar" style="width: 40%;">40%</div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
