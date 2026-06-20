@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="jama"></p>
+    <p id="do"></p>
+    <p id="then"></p>
+    <script>
+        function add(a,b){
+            return a+b;
+        }
+       let result=add(10,30);
+       document.getElementById("jama").innerHTML=result;
+       function sub(c,d){       
+         return c-d;
+
+       }
+       let output=sub(20,5);
+        document.getElementById("do").innerHTML=output;
+
+        function mul(z,y){
+            return z*y
+        }
+        function div(z,y){
+            return mul(z,y)/3
+
+        }
+        let answer=div(10,6);
+         document.getElementById("then").innerHTML=answer;
+    </script>
+    
+</body>
+</html>
