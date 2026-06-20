@@ -1,26 +1,134 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>replit</title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            background-color: #eeee;
+            padding: 30px;
+            text-align: center;
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            text-decoration:double underline;
+           
+           
+        }
+        #line{
+             border-left: 2px solid rgb(184, 178, 178);
+             height: 350px;
+             position: relative;
+             left: 50%;
+        }
+        .sec{
+            position: relative;
+            bottom: 350px;
+            left: 20px;
+        }
+        .lab{
+            position: relative;
+            left: 10px;
+        }
+        .na{
+            position: relative;
+            left: 50px;
+            border-color: rgb(180, 190, 190);
+        }
+        .add{
+            position: relative;
+            left: 58px;
+        }
+        #fa{
+            position: relative;
+            left: 26px;
+        }
+        .na ~input{
+            border-color: rgb(180, 190, 190);
+        }
+        .to{
+            gap:20px;
+            position: relative;
+            column-gap: 10px;
+            padding: 2px;
+        }
+        section{
+              position: relative;
+              bottom: 800px;
+              left:53%;
+        } 
+        input[type=radio]{
+            background-color: blanchedalmond;
+        }
+        img{
+            height: 70px;
+            width: 70px;
+        }
+        .div{
+            position: relative;
+            bottom: 60px;
+        }
+        h5{
+            font-size: medium;
+            position: relative;
+            top: 30px;
+            left: 10px;
+        }
+  
+    </style>
+</head>
+<body><fieldset><button id="btn" onclick="data1()">Fill Registary Form</button><div id="zig" style="display: none;">
+    <h1>Open A Registry Form</h1>
+    <hr>
+    <h2>Personal INFORMATION</h2><div id="line"></div>
+    <div class="sec">
+    <label class="lab">Day</label><input type="date" class="to">
+    <label class="lab">Month</label><input type="month" class="to">
+    <label class="lab">Year</label><input type="number" class="to"><br><br>
+    <label class="lab">Full Name</label><input type="text" class="na"><br><br>
+    <label class="lab">Address</label><input type="text" class="add"><br><br>
+    <label class="lab">Zip code</label><input type="text" class="add"><br><br>
+    <label class="lab">Father's name</label><input type="text" id="fa"><br><br>
+    <label class="lab">ID Number</label><input type="text" class="na"><br><br>
+    <label class="lab">Nationality</label><input type="text" class="na"><br><br>
+    <div class="div">
+    <h5>JOB Status</h5>
+     <input type="radio" name="level" class="i"><img src="job.png">
+     <input type="radio" name="level" class="i"><img src="un.png">
+      <input type="radio" name="level" class="i"><img src="fi.png">
+</div></div>
+    <section><h4>GENDER</h4>
+       <input type="radio" name="gender"> <label>Female</label>
+        <input type="radio" name="gender"><label>Male</label>
+       <input type="radio" name="gender"> <label>Transgender</label>
+        <input type="radio" name="gender"><label>Non Binary</label>
+        <div id="did">
+        <h4 >RESIDANCE STATUS</h4>
+       <input type="radio" name="status"> <label>Residence</label>
+        <input type="radio" name="status"><label>Non Residence</label></div>
 
-    </head>
-    <body>
-        <h1>Personal details</h1>
-        <form>
-            <lable>Name</lable><br>
-            <input type="text" id="name"><br><br>
-            <label>email id </label><br>
-            <input type="text" id="email"> <br><br>
-            <label>contact number</label><br>
-            <input type="password" id="contact"><br><br>
-            <label> gender</label><br>
-            <input type="radio" id="female" name="gender" value="female"> female <br>
-            <input type="radio" id=" male" name="gender" value="male "> male <br><br>
-            <label>favourite city</label>
-            <input type="checkbox" id="city" value="new dehli">new dehli<br>
-            <input type="checkbox" id="city" value="jhelum">jhelum<br>
-            <input type="checkbox"id="city" value="islamabad">islamabad <br>
-            <input type="checkbox" id="city" value="muree">muree<br><br>
-            <input type="submit">
-        </form>
-    </body>
+        <h4>GENDER</h4>
+       <input type="radio" name="martial"> <label>Maried</label>
+        <input type="radio" name="martial"><label>Single</label>
+       <input type="radio" name="martial"> <label>Other</label>
+        <input type="radio" name="martial"><label>Divorced</label>
+    </section>
+    <section id="pic">
+        <h4>Graduation Level</h4>
+        <input type="radio" name="level"><img src="sc.png">
+         <input type="radio" name="level"><img src="cols.png">
+          <input type="radio" name="level"><img src="uni.png">
+    </section>
+    
+    </div></fieldset>
+    <script>
+        function data1() {
+    document.getElementById("zig").style.display = "block";
+    document.getElementById("btn").style.display = "none";
+}
+
+        
+    </script>
+
+
+</body>
+</html>
