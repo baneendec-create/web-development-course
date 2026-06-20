@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head><title>ZOO Area</title></head>
+    <body>
+        <h1>My Zoo
+            <div id="zoo">
+            <div class="zone">Zone 1<span id="1">ZOO 1</span ></div>
+              <div class="zone">Zone2<span id="2">ZOO 1</span ></div>
+                <div class="zone">Zone3<span id="3">ZOO 1</span ></div>
+                  <div class="zone">Total Animals<span id="total">Total</span></div></div>
+                    <button onclick="openit()">Open It</button>
+                    <p id="zoostatus"></p>
+    <script>
+        function openit(){
+            document.getElementById("1").innerHTML="sparrow";
+             document.getElementById("2").innerHTML="parrot";
+             document.getElementById("3").innerHTML="rat";
+              document.getElementById("total").innerHTML="3";
+              document.getElementById("zoo").style.backgroundColor="lightpink";
+              document.getElementById("zoostatus").innerHTML=document.title + "open zoo now";
+
+        }
+        </script>
+        </body>
+        </html>
