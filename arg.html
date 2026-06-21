@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Doing sum using argument method</h2>
+    <p id="arg"></p>
+    <p id="so"></p>
+    <!-yeh formula add karwana ka liya use hota hai---->
+    <script>
+        function  add(){
+            var s;
+          var  sum=0;
+         for (s=0 ; s<arguments.length; s++){
+           
+            sum= sum +arguments[s]} 
+            return sum
+        }
+        document.getElementById("arg").innerHTML=add(28,67,89,46);
+
+       function maximum(){
+         var h;
+         var max=0
+         for( h=0; h < arguments.length; h++){
+            if(max<arguments[h]){
+                (max= arguments[h]);
+            }
+         } return max;
+       }
+       document.getElementById("so").innerHTML=maximum(20,87,164,24,98,25)
+
+
+    </script>
+</body>
+</html>
