@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" >
+    <title>Document</title>
+</head>
+<body>
+    <!--yahan per i loop hai argument ki value 1,2,3 han-->
+    <!--agar i zero ho tu first argument 1 ho ga -->
+    <!--ab if mqa jo condition di hai ka argument[i] >max kyu ka max ki value 0 hai or argument{i} ki 1 tiu 1 bara ho ga zero sa tu max =1 k aho jaye ga-->
+    <!--20 line per jo =likha hai woh max ko argument ki value ka equal kar data hai agar argument 2 hai tu max 2 ho ga -->
+     <h1>Find-out largesrt value  using argument method </h1>
+    <p id="result"></p>
+   
+   <script>
+    function findMax(){
+        var i;
+        var max=0;
+        for (i=0 ; i<arguments.length; i++){
+            if(arguments[i] >max ){
+                max=arguments[i];
+            }
+               
+            
+        }
+        return max;
+    
+    }
+
+    document.getElementById("result").innerHTML=findMax (1, 2, 3 , 45, 526,668, 26,67,09,19,87);
+   </script> 
+</body>
+</html>
